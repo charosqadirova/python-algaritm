@@ -1,0 +1,5 @@
+numbers = list(map(int, input().split()))
+son = sum(numbers)
+a = son - max(numbers)
+b = son - min(numbers)
+print(a, b)
